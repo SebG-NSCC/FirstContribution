@@ -1,5 +1,7 @@
+const readline = require('readline-sync');
 
-
+let userInput = readline.question('What is your name?: ')
+userInput === 'Seb' ? console.log('No way! We have the same name!') : '';
 
 // var num = 1;
 // var result = num++
@@ -28,17 +30,17 @@
 // }
 
 
-var percentage = 30;
-if (percentage >= 80) {
-    console.log("your grade is A+")
-} else if (percentage >= 70) {
-    console.log("your grade is A")
-} else if (percentage >= 60) {
-    console.log("your grade is B")
-} else if (percentage >= 50) {
-    console.log("your grade is C")
-}
-else {
-    console.log("Bhai tum hogaye ho fail.");
-}
+// var percentage = 30;
+// if (percentage >= 80) {
+//     console.log("your grade is A+")
+// } else if (percentage >= 70) {
+//     console.log("your grade is A")
+// } else if (percentage >= 60) {
+//     console.log("your grade is B")
+// } else if (percentage >= 50) {
+//     console.log("your grade is C")
+// }
+// else {
+//     console.log("Bhai tum hogaye ho fail.");
+// }
 
