@@ -1,7 +1,12 @@
+//===================================================================================
+
+//Question 3: Display special message if the user-provided name is the same as yours.
 const readline = require('readline-sync');
 
 let userInput = readline.question('What is your name?: ')
 userInput === 'Seb' ? console.log('No way! We have the same name!') : '';
+
+//===================================================================================
 
 // var num = 1;
 // var result = num++
